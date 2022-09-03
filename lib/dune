@@ -1,0 +1,9 @@
+(library
+ (name mlcpp_chrono)
+ (public_name mlcpp_chrono)
+ (preprocess
+  (pps ppx_optcomp))
+ (foreign_stubs (language cxx) (names chrono duration) (flags -std=c++17 -fno-exceptions))
+ (c_library_flags :standard -lstdc++)
+ (libraries unix)
+)

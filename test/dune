@@ -1,0 +1,4 @@
+(test
+ (name test)
+ (modules test testDuration)
+ (libraries alcotest mlcpp_chrono unix))

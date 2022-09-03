@@ -29,3 +29,8 @@ setup.log
 # Local OPAM switch
 _opam/
 
+.vscode/
+
+
+mlcpp_chrono.opam
+
